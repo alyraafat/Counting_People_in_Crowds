@@ -12,7 +12,7 @@ I used the Shanghai dataset for crowd counting from kaggle. The dataset contains
 
 ## Data Augmentation
 
-I have implemented various data augmentation techniques, including:
+I have implemented various data augmentation techniques inspired from many different websites and notebooks on the internet, including:
 
 1. Normal dataset without augmentation.
 2. Dataset with Gaussian filtering using SciPy.
@@ -24,7 +24,7 @@ I have implemented custom data generators that inherit from tf.keras.utils.Seque
 
 ## Models
 
-I have designed and implemented multiple crowd counting models:
+I have designed and implemented multiple crowd counting models inspired from many different websites and notebooks on the internet:
 
 1. Two autoencoders with different encoder and decoder architectures. These autoencoders are used separately.
 1. A CSRNet-like model based on VGG16 for transfer learning.
