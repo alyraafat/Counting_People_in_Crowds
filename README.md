@@ -1,6 +1,6 @@
 # Counting_People_in_Crowds
 ## Objective
-This is a project for crowd counting using density maps. In this project, we utilize the Shanghai dataset, employ various data augmentation techniques, and create several deep learning models for crowd counting. We also introduce a custom loss function that combines mean squared error (MSE) and structural similarity index (SSIM) for improved accuracy.
+This is a project for crowd counting using density maps. In this project, we utilize the Shanghai dataset, employ various data augmentation techniques, and create several deep learning models for crowd counting. I will also introduce a custom loss function that combines mean squared error (MSE) and structural similarity index (SSIM) for improved accuracy.
 
 ## To view the Notebook
 Download the notebook or clone the repo using the following command:
