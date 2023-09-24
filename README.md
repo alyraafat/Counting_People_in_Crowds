@@ -33,7 +33,7 @@ I have designed and implemented multiple crowd counting models inspired from man
 
 ##  Loss Function 
 
-1. Gaussian Kernel: I created a Gaussian kernel, which is a mathematical function that resembles a bell curve. This kernel is used to smooth the density maps.
+1. Gaussian Kernel: We create a Gaussian kernel, which is a mathematical function that resembles a bell curve. This kernel is used to smooth the density maps.
 2. Smoothing: We apply this Gaussian kernel to both the ground truth density map (y_true) and the predicted density map (y_pred). This smoothing process helps to make the density maps more continuous and less noisy.
 3. Mean and Variance: We calculate the mean (average) and variance (spread) of the smoothed density maps for both the ground truth and predicted maps. This allows us to understand the distribution of points in the images.
 4. Covariance: We also compute the covariance, which measures how two sets of data (in this case, the ground truth and predicted density maps) change together. It helps us understand how well the predicted points match the actual points.
